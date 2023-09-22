@@ -27,11 +27,6 @@ function renderGallery() {
 renderGallery();
 
 
-refs.ulGallery.addEventListener('click', e =>
-    e.preventDefault());
-
-    
-
 new SimpleLightbox('.gallery a', { 
     captionsData: 'alt',
     captionDelay: 250,
